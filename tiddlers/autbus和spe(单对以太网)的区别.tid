@@ -1,0 +1,24 @@
+created: 20231012084836210
+creator: villette
+modified: 20231012085113962
+modifier: villette
+tags: Index
+title: autbus和spe(单对以太网)的区别
+
+AUTBUS和单对以太网之间的区别主要有以下几点：
+
+
+
+AUTBUS是一种基于时间敏感技术的宽带工业总线，单对以太网是一种基于IEEE 802.3bp标准的低成本、低功耗的以太网技术¹。
+
+
+
+AUTBUS采用OFDM技术在两线上创建基于共享介质的现场总线，单对以太网采用PAM3技术在两线上实现差分信号传输²。
+AUTBUS的总线数据带宽达到100Mbps，最大传输距离500米，最小循环周期8微秒，最大节点数256个，单对以太网的数据带宽为10Mbps或100Mbps，最大传输距离为15米或40米，最大节点数为8个³ 。
+AUTBUS支持实时和非实时数据的传输与应用，兼容ISO/IEC/IEEE 802.3以太网、IPv6等应用，单对以太网只支持非实时数据的传输，主要用于车载网络、工业自动化、物联网等领域。
+AUTBUS 一种高速工业现场总线 - 知乎 - 知乎专栏. https://zhuanlan.zhihu.com/p/148213586
+工控常用的9种现场总线，一文全搞明白 - 知乎. https://zhuanlan.zhihu.com/p/330668153.
+一文入门车载以太网，吐血整理！不看后悔！ - 知乎专栏. https://zhuanlan.zhihu.com/p/408790677.
+
+
+
